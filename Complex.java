@@ -1,30 +1,24 @@
-import java.util.*;
-public class Complex {
+import java.util.Scanner;
+class Complex
+{
 
-  double real;
-  double imag;
+public static void main(String arg[])
+{
 
-  public Complex(double real,double imag) {
-   this.real=real;
-   this.imag=imag;
+Scanner s=new Scanner(System.in);
+int a,b,c,d;
 
-   }
+System.out.println("Enter the first complex number:");
+a=s.nextInt();
+b=s.nextInt();
 
-  public static void main(String args[]) {
-  Complex n1=new Complex(4.5,2.3),
-          n2=new Complex(5.0,3.4),
-          temp;
+System.out.println("The number is: "+a+"+"+b+"i");
+System.out.println("Enter the second complex number:");
+c=s.nextInt();
+d=s.nextInt();
 
-    temp=add(n1,n2);
-    System.out.printf("Sum= %.1f + %.1fi",temp.real,temp.imag);
-   }
-
-  public static Complex add(Complex n1,Complex n2)  
-  {
-  Complex temp=new Complex(0.0,0.0);
-  temp.real=n1.real+n2.real;
-  temp.imag=n1.imag+n2.imag;
-  return(temp);
-  }
+System.out.println("The number is:"+c+""+""+d+"i");
+System.out.println("The Sum is :"+ (a+c) + " + "+ (b+d) +"i");
 }
-        
+}
+
