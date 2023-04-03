@@ -26,3 +26,16 @@ System.out.println("Total mark:"+total);
 System.out.println("Percentage:"+percentage);
 }
 }
+
+
+OUTPUT
+Enter no. of subject:6
+Enter marks out of 100:
+98
+90
+80
+99
+78
+90
+Total mark:535
+Percentage:89.0
