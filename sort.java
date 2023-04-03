@@ -13,3 +13,7 @@ System.out.println("After Sorting :  " + sortedString);
 }
 }
 
+OUTPUT
+Input String Value which should be sorted : 
+tobehappy
+After Sorting :  abehoppty
