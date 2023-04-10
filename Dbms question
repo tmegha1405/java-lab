@@ -1,0 +1,26 @@
+Create a bank database according to the following specification
+
+Account(accno,cid,bid,amount,adate)
+
+Customer(cid,cname,city)
+
+Borrower(loanno,cid,bid,amount)
+
+Branch(bid,bname,city) and give SQL query for solving following problems ?Also drawE-R diagram?
+
+Give names of customers living in kochi city?
+Give name of branches at mg road? 
+Give names of depositors have been account at mg road? 
+Give names of customers having loan and living in city Calicut?
+List the customers having deposit in the branch where average deposit in the branch is more than 32000?
+List all the branches having sum of deposit more than 5000?
+List the branch having sum of deposit more than 32000 and located in city Trivandrum?
+List the name of customers having maximum deposit?
+List the name of branch having largest no of depositors?
+List the name of customers having largest no of deposits?
+Give the names of cities in which maximum branches are allocated?
+Give name of branch where no of depositors more than 2?
+List all customers who are depositors but not borrowers?
+List customers who are depositors or borrowers and living in city kochi?
+List the amount of total loan?
+Give name of customers having highest deposit in branch where arun is having deposit?
